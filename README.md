@@ -3,7 +3,11 @@
 
 ![Game preview screenshot](screenshot.png)
 
-This game was built for a front-end software engineer application coding challenge. It was developed on the VueJS framework as a single-page application (SPA). The app uses Vuex for state management, Axios for API requests to the [Deck of Cards API](http://deckofcardsapi.com/), and Vue Router for routing.
+This game was built for a front-end software engineer application coding challenge. It was developed on the VueJS framework as a single-page application (SPA). The app uses Vuex for state management, Axios for API requests to the [Deck of Cards API](http://deckofcardsapi.com/), and Vue Router for routing. The app is compiled with Webpack.
+
+## Demo
+
+A demo of this game is hosted on an AWS S3 server and can be found [here](http://colinulin-hilogame.s3-website.us-east-2.amazonaws.com/).
 
 ## Installation
 
@@ -35,7 +39,7 @@ Or with NPM:
 npm run dev
 ```
 
-Running the above script should open a browser window with the app running. If a browser window does not open after running the above script, navigate to `http://localhost:8080/` in your browser. If you still experience issues, check that there aren't any errors in your terminal and that VueJS is running on port 8080.
+Running the above script should open a browser window with the app running and a second window displaying package sizes. The dev server is setup to run in hot-reload mode so changes made in your code will automatically be shown in your browser. If a browser window does not open after running the above script, navigate to `http://localhost:8080/`. If you still experience issues, check that there aren't any errors in your terminal and that VueJS is running on port 8080.
 
 ## Deployment
 
