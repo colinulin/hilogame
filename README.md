@@ -51,7 +51,7 @@ Or with NPM:
 npm run build
 ```
 
-Running this script creates a new folder, called "dist", which contains all of the necessary JS files to run Hi - Lo as a standalone app. Launch the index.html (in the root folder) in a browser to run the compiled app.
+Running this script creates a new folder, called "dist", which contains all of the necessary JS files to run Hi - Lo as a standalone app. Upload index.html and the dist directory to your server to deploy the production app.
 
 ## Release History
 
